@@ -15,7 +15,7 @@ app.use(bodyParser.json({extended:true}))
 app.use(bodyParser.urlencoded({extended:true}))
 app.use(express.urlencoded({ extended: true }));
 app.get('/',(req, res)=>{
-    return res.send('wowo')
+    return res.send('welcome to application')
 })
 
 
